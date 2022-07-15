@@ -1,0 +1,22 @@
+#this is an XML schema that checks the structure of an XML file.
+
+<xs:complexType name="person">
+	<xs:sequence>
+		<xs:element name="lastname" type="xs:string"/>
+		<xs:element name="age" type="xs:integer"/>
+		<xs:element name="databorn" type="xs:date"/>
+	</xs:sequence>
+</xs:complexType>
+
+#this is another type that names constraints on each inside element
+<xs:element name="person">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="full_name" type="xs:string" minOccurs="1" maxOccurs="1" /> #force this element as a constraint of a person
+			<xs:element name="child_name" type="xs:string" minOccurs="0" maxOccurs="10" />
+			<xs:element name="money" type="xs:decimal"/> #decimal number type
+			<xs:element name="birthday" type="xs:date"/> #date type
+			<xs:element name="start" type="xs:dateTime"/> #date/time type
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>

@@ -1,0 +1,12 @@
+2016-10-23 14:27:11.969000
+
+Deleting the following files:
+
+-../../../Assembly\AssemblyRepository\exampleCode\FlowChartCodeExample.o
+-../../../C_C++\C_C++Repository\exampleCode\networking\connectsock.o
+-../../../C_C++\C_C++Repository\exampleCode\networking\connecttcp.o
+-../../../C_C++\C_C++Repository\exampleCode\networking\encrypt.o
+-../../../C_C++\C_C++Repository\exampleCode\networking\error.o
+-../../../C_C++\C_C++Repository\exampleCode\networking\lport.o
+-../../../C_C++\C_C++Repository\exampleCode\networking\passivesock.o
+-../../../C_C++\C_C++Repository\exampleCode\networking\passivetcp.o
