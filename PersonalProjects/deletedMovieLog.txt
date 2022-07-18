@@ -1,0 +1,9 @@
+2016-12-09 14:51:09.661000
+
+readme - Copy.txt was deleted. 
+readme.txt was deleted. 
+readme - Copy.txt was deleted. 
+readme.txt was deleted. 
+readme - Copy.txt was deleted. 
+readme.txt was deleted. 
+Total # of movies deleted: 6
